@@ -1,0 +1,11 @@
+{
+    "positive":[
+        {
+            "firstName": "",
+            "lastName": "",
+            "email": "",
+            "password": "",
+            "confirmPassword": ""
+        }
+    ]
+}

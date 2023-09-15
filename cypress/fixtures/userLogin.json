@@ -1,0 +1,22 @@
+{
+    "positive":[
+        {
+            "email": "registered_salsa@gmail.com",
+            "password": "ThisIsAPassword"
+        }
+    ],
+    "negative":[
+        {
+            "email": "unregister_salsa@gmail.com",
+            "password": "ThisIsAPassword"
+        },
+        {
+            "email": "registered_salsa@gmail.com",
+            "password": "ThisIsWrongPassword"
+        },
+        {
+            "email": "usersalsa",
+            "password": "ThisIsAPassword"
+        }
+    ]
+}
