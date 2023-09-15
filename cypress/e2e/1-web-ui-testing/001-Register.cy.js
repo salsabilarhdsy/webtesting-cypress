@@ -1,7 +1,7 @@
 import registerPage from '../../support/pageObject/registerPage'
 // const userRegister = require('../../fixtures/userRegister.json')
 
-describe('Demo Web Shop UI Testing', () => {
+describe('DemoWebShop UI Testing - Login', () => {
 
     function randomEmail(){
       const randomString = Math.random().toString(36).substring(2, 10)
