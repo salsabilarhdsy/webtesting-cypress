@@ -1,11 +1,8 @@
 name: WebDemoShop UI Testing
-on:
-  push:
-    paths:
-    - 'cypress/e2e/1-web-ui-testing/'
+on: push
 jobs:
   cypress-run:
-    name: WebDemoShop UI
+    name: WebDemoShop
     runs-on: ubuntu-22.04
     steps:
       - name: Checkout
@@ -14,5 +11,4 @@ jobs:
       - name: Regression Webdemoshop UI
         uses: cypress-io/github-action@v6
         with:
-          spec: |
-            cypress/e2e/1-web-ui-testing/
+          record: true
