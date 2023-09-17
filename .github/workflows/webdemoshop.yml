@@ -1,8 +1,8 @@
-name: WebDemoShop UI Testing
+name: WebDemoShop
 on: push
 jobs:
   cypress-run:
-    name: WebDemoShop
+    name: WebDemoShop UI Testing
     runs-on: ubuntu-22.04
     steps:
       - name: Checkout
@@ -10,5 +10,4 @@ jobs:
 
       - name: Regression Webdemoshop UI
         uses: cypress-io/github-action@v6
-        with:
-          record: true
+        
